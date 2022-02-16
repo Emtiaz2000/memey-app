@@ -1,0 +1,110 @@
+.wallet_icon_container {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.wallet_icon_container .wallet_info {
+  width: 350px;
+  height: 80px;
+  text-align: center;
+}
+
+.available_wallet {
+  width: 400px;
+  height: 300px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.single_wallet_container {
+  position: relative;
+  z-index: 100;
+  margin: 5px 0px;
+  background: #fff;
+}
+.single_wallet_container::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  border: 0.3px solid rgb(0 0 0 / 24%);
+  filter: blur(2px);
+  background: #fff;
+}
+.available_wallet .wallet_container {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+  box-sizing: border-box;
+  text-decoration: none;
+  z-index: 101;
+}
+.wallet_container .wallet_text {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.new_wallet_user_more{
+    width:400px;
+    height:80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.new_wallet_creat,.learn_more{
+    margin:0px;
+    padding:0px;
+}
+.new_wallet_creat{
+    font-family: 'Rubik', sans-serif;
+    color:#000000;
+    font-weight: 300;
+}
+
+.learn_more{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color:#133D69;
+}
+
+@media (max-width:500px) {
+    .single_wallet_container{
+        width:350px;
+        margin:auto;
+    }
+    .available_wallet .wallet_container{
+        width:310px;
+    }
+}
+
+ @media (max-width:420px) {
+    .single_wallet_container{
+        width:300px;
+        margin:auto;
+    }
+    .available_wallet .wallet_container{
+        width:280px;
+    }
+    .available_wallet{
+        width:100%;
+    }
+    .new_wallet_user_more{
+        width:100%;
+    }
+    .wallet_icon_container .wallet_info{
+        width:100%;
+    }
+} 
