@@ -16,7 +16,7 @@ export default function ConnectWalet() {
             <NavBar />
             {/* wallet icon and info */}
             <div className='wallet_icon_container'>
-                <img src={walletIcon} />
+                <img src={walletIcon} alt="image"/>
                 <div className='wallet_info'>
                     <p>Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem
@@ -29,14 +29,14 @@ export default function ConnectWalet() {
             <div className='available_wallet'>
                 <div className='single_wallet_container'>
                     <Link to='/' className='wallet_container'>
-                        <img src={metaMask}/>
+                        <img src={metaMask} alt="image"/>
                         <span className='wallet_text'>MetaMask</span>
                     </Link>
                 </div>
 
                 <div className='single_wallet_container'>
                     <Link to='/' className='wallet_container'>
-                        <img src={trustWallet}/>
+                        <img src={trustWallet} alt="image"/>
                         <span className='wallet_text'>Trust Wallet</span>
                     </Link>
                 </div>

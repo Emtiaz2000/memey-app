@@ -11,7 +11,7 @@ export default function NavBar() {
     <>
         <div className='Nav_container'>
             <nav>
-                <Link to="/" className='Back_btn'> <img src={backArrow}/> <span className='nav_back'>Back</span> </Link>
+                <Link to="/" className='Back_btn'> <img src={backArrow} alt="image"/> <span className='nav_back'>Back</span> </Link>
                 <h2 className='nav_heading'>Connect Wallet</h2>
                 <Link to="#" className='home_btn'>Home</Link>
             </nav>
