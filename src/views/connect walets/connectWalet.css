@@ -8,7 +8,7 @@
   gap: 10px;
 }
 .wallet_icon_container .wallet_info {
-  width: 350px;
+  width: 330px;
   height: 80px;
   text-align: center;
 }
@@ -16,7 +16,7 @@
 .available_wallet {
   width: 400px;
   height: 145px;
-  margin: 25px auto;
+  margin: 10px auto;
   box-sizing: border-box;
   border-radius: 5px;
 }
