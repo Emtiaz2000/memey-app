@@ -1,0 +1,135 @@
+.editor {
+  width: 95%;
+  height: 200px;
+  margin: 12px auto;
+}
+.editor .demo_editor_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.undo-redo-zoom {
+  width: 95%;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.undo-redo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 0px 5px;
+  width: 184px;
+}
+.undo-container,
+.redu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2px 5px;
+  width: 50%;
+  font-family: Rubik;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.undo-container {
+  border-right: 1px solid rgba(196, 196, 196, 0.4);
+}
+.redu-container {
+  border-left: 1px solid rgba(196, 196, 196, 0.4);
+}
+.zoom-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+}
+#zoom_range {
+  width: 154px;
+  height: 3px;
+  background: #fff;
+}
+.plus_minus_icon {
+  width: 154px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon_scale {
+  transform: scale(1.5);
+}
+
+.select_image_template {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  height: 80px;
+}
+.select_image,
+.select_template {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding:0px 10px;
+  cursor: pointer;
+  
+}
+.select_img_tem_text{
+    font-family: Rubik;
+    font-weight: 400;
+    color:#107582;
+    font-size: 1.1rem;
+    line-height: 13px;
+}
+
+.edit_option{
+    width:95%;
+    height:150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin:auto;
+}
+.editior-option-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background: #107582;
+    width:100%;
+    border-radius: 5px;
+    
+}
+.text_icon{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    cursor: pointer;
+}
+
+.icon-name{
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color:#FFFFFF;
+}
